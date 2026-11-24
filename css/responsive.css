@@ -1,0 +1,39 @@
+/* =================================
+   RESPONSIVE FOUNDATIONS
+================================= */
+
+/* Mobile Devices */
+@media (max-width: 767px) {
+
+    :root {
+        --container-padding: 16px;
+    }
+
+}
+
+/* Tablet Devices */
+@media (min-width: 768px) and (max-width: 1023px) {
+
+    :root {
+        --container-padding: 24px;
+    }
+
+}
+
+/* Small Desktop */
+@media (min-width: 1024px) and (max-width: 1279px) {
+
+    :root {
+        --container-padding: 32px;
+    }
+
+}
+
+/* Large Desktop */
+@media (min-width: 1280px) {
+
+    :root {
+        --container-padding: 40px;
+    }
+
+}
