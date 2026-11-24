@@ -37,3 +37,78 @@
     }
 
 }
+
+/* =================================
+   MOBILE HEADER & NAVIGATION
+================================= */
+
+@media (max-width: 767px) {
+
+    .site-header {
+        padding: 16px 0;
+    }
+
+    .header-container {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 20px;
+    }
+
+    .site-logo {
+        font-size: 20px;
+    }
+
+    .site-nav {
+        width: 100%;
+    }
+
+    .nav-list {
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 16px;
+    }
+
+    .nav-list a {
+        font-size: 14px;
+    }
+
+        /* Mobile Footer */
+
+    .footer-container {
+        flex-direction: column;
+        gap: 32px;
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+
+    .footer-nav-list {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 16px;
+    }
+
+    .site-footer {
+        margin-top: 50px;
+    }
+
+        /* Mobile Featured Card */
+
+    .featured-card {
+        grid-template-columns: 1fr;
+    }
+
+    .featured-card-image {
+        min-height: 220px;
+        height: 220px;
+    }
+
+    .featured-card-body {
+        padding: 24px;
+    }
+
+    .featured-card-title {
+        font-size: 28px;
+    }
+
+}
+
