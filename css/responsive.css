@@ -110,5 +110,135 @@
         font-size: 28px;
     }
 
+        /* Mobile Hero */
+
+    .hero-section {
+        padding: 64px 0;
+    }
+
+    .hero-title {
+        font-size: 36px;
+    }
+
+    .hero-description {
+        font-size: 16px;
+    }
+
+    .hero-actions {
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    .hero-actions .btn {
+        width: 100%;
+    }
+
+        /* Mobile Announcements */
+
+    .announcement-content {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 12px;
+    }
+
+        /* Mobile Featured Stories */
+
+    .featured-stories-section {
+        padding: 56px 0;
+    }
+
+    .section-heading {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 16px;
+    }
+
+    .section-title {
+        font-size: 28px;
+    }
+
+        /* Mobile Category Grid */
+
+    .category-highlights-section {
+        padding: 56px 0;
+    }
+
+    .category-grid {
+        grid-template-columns: 1fr;
+        gap: 16px;
+    }
+
+        /* Mobile Latest Articles */
+
+    .latest-articles-section {
+        padding: 56px 0;
+    }
+
+    .articles-grid {
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+
+        /* Mobile Worth Understanding */
+
+    .worth-understanding-section {
+        padding: 56px 0;
+    }
+
+    .understanding-grid {
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+
+    /* Newsletter Section */
+
+    .newsletter-section {
+        padding: 56px 0;
+    }
+
+    .newsletter-title {
+        font-size: 28px;
+    }
+
+    .newsletter-description {
+        font-size: 16px;
+    }
+
+    .newsletter-form-fields {
+        flex-direction: column;
+    }
+
+    .newsletter-form button {
+        width: 100%;
+    }
+
 }
 
+/* Tablet Category Grid */
+
+@media (min-width: 768px) and (max-width: 1023px) {
+
+    .category-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+}
+
+/* Tablet Latest Articles */
+
+@media (min-width: 768px) and (max-width: 1023px) {
+
+    .articles-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+}
+/* Tablet Worth Understanding */
+
+@media (min-width: 768px) and (max-width: 1023px) {
+
+    .understanding-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+}

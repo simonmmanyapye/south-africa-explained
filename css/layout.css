@@ -122,3 +122,54 @@
     font-family: var(--font-primary);
     font-size: var(--font-size-caption);
 }
+
+/* =================================
+   FEATURED STORIES LAYOUT
+================================= */
+
+.featured-stories-section {
+    padding: 80px 0;
+}
+
+/* =================================
+   CATEGORY GRID LAYOUT
+================================= */
+
+.category-highlights-section {
+    padding: 80px 0;
+}
+
+.category-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
+}
+
+/* =================================
+   LATEST ARTICLES LAYOUT
+================================= */
+
+.latest-articles-section {
+    padding: 80px 0;
+}
+
+.articles-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
+}
+
+/* =================================
+   WORTH UNDERSTANDING LAYOUT
+================================= */
+
+.worth-understanding-section {
+    padding: 80px 0;
+    background-color: var(--color-background-secondary);
+}
+
+.understanding-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
+}
