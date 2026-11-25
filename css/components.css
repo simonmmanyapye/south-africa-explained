@@ -430,3 +430,47 @@
     font-family: var(--font-primary);
     font-size: var(--font-size-caption);
 }
+
+/* Category Hero Section */
+
+.category-hero-section {
+    background-color: var(--color-background-main);
+    padding: 100px 0;
+}
+
+.category-hero-container {
+    display: flex;
+    align-items: center;
+}
+
+.category-hero-content {
+    max-width: 760px;
+}
+
+.category-hero-label {
+    display: inline-block;
+    margin-bottom: 24px;
+    color: var(--color-accent);
+    font-family: var(--font-primary);
+    font-size: var(--font-size-caption);
+    font-weight: 700;
+    letter-spacing: 1.5px;
+}
+
+.category-hero-title {
+    margin: 0 0 24px;
+    color: var(--color-primary);
+    font-family: var(--font-primary);
+    font-size: var(--font-size-h1);
+    font-weight: 700;
+    line-height: 1.15;
+}
+
+.category-hero-description {
+    max-width: 650px;
+    margin: 0 0 32px;
+    color: var(--color-secondary);
+    font-family: var(--font-primary);
+    font-size: var(--font-size-body);
+    line-height: 1.7;
+}

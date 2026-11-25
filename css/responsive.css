@@ -212,6 +212,43 @@
         width: 100%;
     }
 
+    /* Category Hero Section */
+
+    .category-hero-section {
+        padding: 64px 0;
+    }
+
+    .category-hero-title {
+        font-size: 36px;
+    }
+
+    .category-hero-description {
+        font-size: 16px;
+    }
+
+    /* Category Featured Section */
+
+    .category-featured-section {
+        padding: 56px 0;
+    }
+
+    /* Category Articles Section */
+
+    .category-articles-section {
+        padding: 56px 0;
+    }
+
+    /* Category Podcasts Section */
+
+    .category-podcasts-section {
+        padding: 56px 0;
+    }
+
+    .podcast-grid {
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+
 }
 
 /* Tablet Category Grid */
@@ -222,21 +259,16 @@
         grid-template-columns: repeat(2, 1fr);
     }
 
-}
+    .podcast-grid {
+    grid-template-columns: repeat(2, 1fr);
+    }
 
-/* Tablet Latest Articles */
-
-@media (min-width: 768px) and (max-width: 1023px) {
-
+    /* Tablet Latest Articles */
     .articles-grid {
         grid-template-columns: repeat(2, 1fr);
     }
 
-}
-/* Tablet Worth Understanding */
-
-@media (min-width: 768px) and (max-width: 1023px) {
-
+    /* Tablet Worth Understanding */
     .understanding-grid {
         grid-template-columns: repeat(2, 1fr);
     }
