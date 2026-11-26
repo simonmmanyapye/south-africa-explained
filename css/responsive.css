@@ -504,3 +504,166 @@
     }
 
 }
+
+
+/* =========================================
+   PODCAST RESPONSIVE STYLES
+========================================= */
+
+/* Tablet */
+
+@media (max-width: 1023px) {
+
+    .podcast-categories-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .podcast-episodes-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .featured-podcast-content {
+        padding: 28px;
+    }
+
+    .featured-podcast-title {
+        font-size: 30px;
+    }
+
+}
+
+
+/* Mobile */
+
+@media (max-width: 767px) {
+
+    .podcast-hero-section {
+        padding: 70px 0;
+    }
+
+    .podcast-hero-title {
+        font-size: 36px;
+    }
+
+    .podcast-hero-description {
+        font-size: 17px;
+    }
+
+    .podcast-categories-section,
+    .featured-podcast-section,
+    .podcast-episodes-section {
+        padding: 60px 0;
+    }
+
+    .podcast-categories-grid,
+    .podcast-episodes-grid {
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+
+    .featured-podcast-card {
+        grid-template-columns: 1fr;
+    }
+
+    .featured-podcast-thumbnail {
+        min-height: 220px;
+    }
+
+    .featured-podcast-content {
+        padding: 24px;
+    }
+
+    .featured-podcast-title {
+        font-size: 26px;
+    }
+
+    .featured-podcast-description {
+        font-size: 17px;
+    }
+
+    .podcast-episode-thumbnail {
+        min-height: 180px;
+    }
+
+}
+
+
+
+/* =========================================
+   INDIVIDUAL EPISODE RESPONSIVE STYLES
+========================================= */
+
+/* Tablet */
+
+@media (max-width: 1023px) {
+
+    .episode-header-section {
+        padding: 70px 0;
+    }
+
+    .episode-content-section {
+        padding: 50px 0 80px;
+    }
+
+}
+
+
+/* Mobile */
+
+@media (max-width: 767px) {
+
+    .episode-header-section {
+        padding: 60px 0;
+    }
+
+    .episode-back-link {
+        margin-bottom: 24px;
+    }
+
+    .episode-title {
+        font-size: 36px;
+    }
+
+    .episode-introduction {
+        font-size: 17px;
+    }
+
+    .episode-video-section {
+        padding: 40px 0;
+    }
+
+    .episode-video-container {
+        border-radius: 4px;
+    }
+
+    .episode-youtube-actions {
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    .episode-youtube-actions .btn {
+        width: 100%;
+        text-align: center;
+    }
+
+    .episode-content-section {
+        padding: 40px 0 70px;
+    }
+
+    .episode-content h2 {
+        font-size: 24px;
+    }
+
+    .episode-content p,
+    .episode-content li {
+        font-size: 17px;
+    }
+
+    .episode-description,
+    .episode-topics,
+    .episode-related-content,
+    .episode-references {
+        margin-bottom: 36px;
+    }
+
+}
