@@ -667,3 +667,91 @@
     }
 
 }
+
+
+/* =========================================
+   ABOUT PAGE RESPONSIVE STYLES
+========================================= */
+
+/* Tablet */
+
+@media (max-width: 1023px) {
+
+    .about-introduction-container,
+    .about-approach-container {
+        grid-template-columns: 1fr 1.5fr;
+        gap: 32px;
+    }
+
+    .about-categories-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .about-formats-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+}
+
+
+/* Mobile */
+
+@media (max-width: 767px) {
+
+    .about-hero-section {
+        padding: 70px 0;
+    }
+
+    .about-hero-title {
+        font-size: 36px;
+    }
+
+    .about-hero-description {
+        font-size: 17px;
+    }
+
+    .about-introduction-section,
+    .about-purpose-section,
+    .about-categories-section,
+    .about-approach-section,
+    .about-formats-section {
+        padding: 60px 0;
+    }
+
+    .about-introduction-container,
+    .about-purpose-container,
+    .about-approach-container {
+        grid-template-columns: 1fr;
+        gap: 32px;
+    }
+
+    .about-purpose-card {
+        padding: 28px;
+    }
+
+    .about-categories-grid,
+    .about-approach-grid,
+    .about-formats-grid {
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+
+    .about-category-card,
+    .about-approach-card,
+    .about-format-card {
+        padding: 24px;
+    }
+
+    .about-cta-section {
+        padding: 70px 0;
+    }
+
+    .about-cta-title {
+        font-size: 30px;
+    }
+
+    .about-cta-description {
+        font-size: 17px;
+    }
+
+}

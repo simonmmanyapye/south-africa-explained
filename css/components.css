@@ -1228,3 +1228,285 @@
 .episode-content a:hover {
     text-decoration: underline;
 }
+
+
+/* =========================================
+   ABOUT PAGE
+========================================= */
+
+/* About Hero Section */
+
+.about-hero-section {
+    padding: 100px 0;
+    background-color: var(--color-background-secondary);
+    text-align: center;
+}
+
+.about-hero-container {
+    max-width: 900px;
+}
+
+.about-hero-label {
+    margin-bottom: 20px;
+    color: var(--color-accent);
+    font-size: var(--font-size-small);
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+
+.about-hero-title {
+    margin-bottom: 24px;
+    color: var(--color-primary);
+    font-size: var(--font-size-h1);
+    line-height: 1.2;
+}
+
+.about-hero-description {
+    max-width: 750px;
+    margin: 0 auto;
+    color: var(--color-secondary);
+    font-size: var(--font-size-body);
+    line-height: 1.8;
+}
+
+
+/* About Introduction Section */
+
+.about-introduction-section {
+    padding: 80px 0;
+    background-color: var(--color-background-card);
+}
+
+.about-introduction-container {
+    display: grid;
+    grid-template-columns: 1fr 1.5fr;
+    gap: 60px;
+    align-items: start;
+}
+
+.about-introduction-heading .section-title {
+    max-width: 450px;
+}
+
+.about-introduction-content p {
+    margin-bottom: 20px;
+    color: var(--color-secondary);
+    font-size: var(--font-size-body);
+    line-height: 1.8;
+}
+
+.about-introduction-content p:last-child {
+    margin-bottom: 0;
+}
+
+
+/* =========================================
+   ABOUT MISSION AND VISION
+========================================= */
+
+.about-purpose-section {
+    padding: 80px 0;
+    background-color: var(--color-background-secondary);
+}
+
+.about-purpose-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+}
+
+.about-purpose-card {
+    padding: 40px;
+    background-color: var(--color-background-card);
+    border: 1px solid #E1E5E6;
+    border-radius: 8px;
+}
+
+.about-purpose-title {
+    margin-bottom: 20px;
+    color: var(--color-primary);
+    font-size: var(--font-size-h3);
+}
+
+.about-purpose-description {
+    margin: 0;
+    color: var(--color-secondary);
+    font-size: var(--font-size-body);
+    line-height: 1.8;
+}
+
+
+/* =========================================
+   ABOUT CONTENT CATEGORIES
+========================================= */
+
+.about-categories-section {
+    padding: 80px 0;
+    background-color: var(--color-background-main);
+}
+
+.about-categories-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
+    margin-top: 40px;
+}
+
+.about-category-card {
+    padding: 28px;
+    background-color: var(--color-background-card);
+    border: 1px solid #E1E5E6;
+    border-radius: 8px;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.about-category-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 8px 24px rgba(38, 50, 56, 0.08);
+}
+
+.about-category-card h3 {
+    margin-bottom: 12px;
+    color: var(--color-primary);
+    font-size: var(--font-size-h4);
+}
+
+.about-category-card p {
+    margin: 0;
+    color: var(--color-secondary);
+    font-size: var(--font-size-small);
+    line-height: 1.7;
+}
+
+
+/* =========================================
+   ABOUT OUR APPROACH
+========================================= */
+
+.about-approach-section {
+    padding: 80px 0;
+    background-color: var(--color-background-secondary);
+}
+
+.about-approach-container {
+    display: grid;
+    grid-template-columns: 1fr 1.5fr;
+    gap: 60px;
+    align-items: start;
+}
+
+.about-approach-heading .section-title {
+    max-width: 450px;
+}
+
+.about-approach-heading .section-description {
+    line-height: 1.8;
+}
+
+.about-approach-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+.about-approach-card {
+    padding: 28px;
+    background-color: var(--color-background-card);
+    border: 1px solid #E1E5E6;
+    border-radius: 8px;
+}
+
+.about-approach-card h3 {
+    margin-bottom: 12px;
+    color: var(--color-primary);
+    font-size: var(--font-size-h4);
+}
+
+.about-approach-card p {
+    margin: 0;
+    color: var(--color-secondary);
+    font-size: var(--font-size-small);
+    line-height: 1.7;
+}
+
+
+/* =========================================
+   ABOUT CONTENT FORMATS
+========================================= */
+
+.about-formats-section {
+    padding: 80px 0;
+    background-color: var(--color-background-card);
+}
+
+.about-formats-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
+    margin-top: 40px;
+}
+
+.about-format-card {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 32px;
+    background-color: var(--color-background-main);
+    border: 1px solid #E1E5E6;
+    border-radius: 8px;
+}
+
+.about-format-card h3 {
+    margin-bottom: 16px;
+    color: var(--color-primary);
+    font-size: var(--font-size-h4);
+}
+
+.about-format-card p {
+    margin-bottom: 24px;
+    color: var(--color-secondary);
+    font-size: var(--font-size-small);
+    line-height: 1.7;
+}
+
+.about-format-card .content-card-link {
+    margin-top: auto;
+}
+
+
+/* =========================================
+   ABOUT CALL-TO-ACTION
+========================================= */
+
+.about-cta-section {
+    padding: 100px 0;
+    background-color: var(--color-primary);
+    text-align: center;
+}
+
+.about-cta-container {
+    max-width: 850px;
+}
+
+.about-cta-label {
+    margin-bottom: 20px;
+    color: var(--color-accent);
+    font-size: var(--font-size-small);
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+
+.about-cta-title {
+    margin-bottom: 24px;
+    color: #FFFFFF;
+    font-size: var(--font-size-h2);
+    line-height: 1.3;
+}
+
+.about-cta-description {
+    max-width: 650px;
+    margin: 0 auto 32px;
+    color: #E1E5E6;
+    font-size: var(--font-size-body);
+    line-height: 1.7;
+}
